@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header{
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #f5f6fa;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2f3640;
+    font-size: large;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a{
+    color: #f5f6fa;
+    text-decoration: none;
+    
+}
+
+header li a:hover{
+    text-decoration: underline;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+section .articles {
+    display: flex;
+}
+
+.articles {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    width: 30%;
+    height: 230px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a{
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-top: 8px;
+}
+
+.articles article a:hover{
+    text-decoration: underline;     /* o hover serve para selecionar propriedade quando o mouse passa por cima */ 
+}
+
+.articles article p,
+.articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 22px;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+#sports{
+    background-color: rgba(0, 255, 0, 0.17);
+}
+
+#sports .articles article a{
+    background-color: darkgreen;
+}
+
+#economy{
+    background-color: rgba(255, 242, 0, 0.242);
+}
+
+#economy .articles article a{
+    background-color: rgb(232, 127, 15);
+}
+
+#saude {
+    background-color: rgba(13, 28, 240, 0.207);
+}
+
+#saude .articles article a{
+    background-color: rgba(21, 13, 240, 0.908);
+}
+
+#tecnologia{
+    background-color: rgba(255, 115, 0, 0.47);
+}
+
+#tecnologia .articles article a{
+    background-color: rgba(240, 13, 13, 0.985);
+}
+
+
