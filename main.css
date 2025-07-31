@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.mensagemValida {
+    background-color: #27ae60;
+    padding: 16px;
+    margin-top: 16px;
+    width: 480px;
+    border-radius: 18px;
+    color: #fff;
+    display: none;
+    text-align: center;
+}
+
+.mensagemInvalida {
+    background-color: #aa0707;
+    padding: 16px;
+    margin-top: 16px;
+    width: 480px;
+    border-radius: 18px;
+    color: #fff;
+    display: none;
+    text-align: center;
+}
+
+    input, button, textarea{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    resize: none;
+}
+
+form {
+    padding: 60px;
+    border-radius: 18px;
+    background-color: #ebd9f7;
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+button {
+    background-color: #2f009e;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #2f009e;
+}
+
+button:hover {
+    background-color: #4e29a5;
+}
